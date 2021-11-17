@@ -43,8 +43,8 @@ public class CongestionTaxCalculator {
             }
         }
 
-        if (totalFee > 60)
-            totalFee = 60;
+        if (totalFee > singleChargeTime)
+            totalFee = singleChargeTime;
         return totalFee;
     }
 

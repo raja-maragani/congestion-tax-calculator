@@ -2,7 +2,6 @@ spring:
 logging:
   level:
     org.springframework.web: INFO
-    guru.springframework.controllers: INFO
 singlecharge:
   time: 60
 tax-price:
